@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sublime Distribuidora | Conectando marcas às gôndolas</title>
+<meta name="description" content="Sublime Distribuidora: distribuidora alimentícia de atacado e varejo. Queijo parmesão Rettis e torresmo, pururuca e banha Sabor de Minas.">
+<meta property="og:title" content="Sublime Distribuidora">
+<meta property="og:description" content="Distribuidora alimentícia de atacado e varejo. Conectando marcas às gôndolas.">
+<meta property="og:image" content="img/linha-sabor-de-minas.jpg">
+<meta name="theme-color" content="#01193d">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></g></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></g></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></g></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></g></symbol>
+    <symbol id="i-badge" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></g></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01"/><path d="M15 9h.01"/></g></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M11.53 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.8a.53.53 0 0 1 .3-.91l5.16-.75a2.12 2.12 0 0 0 1.6-1.16z"/></g></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 7 13.5 15.5 8.5 10.5 2 17"/><path d="M16 7h6v6"/></g></symbol>
+    <symbol id="i-package" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"/><path d="M12 22V12"/><path d="m3.3 7 7.7 4.73a2 2 0 0 0 2 0L20.7 7"/></g></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></g></symbol>
+  </defs>
+</svg>
+
+<header class="header">
+  <div class="wrap">
+    <a href="#inicio" aria-label="Sublime Distribuidora, início"><img src="img/logo-claro.png" alt="Sublime Distribuidora" width="66" height="52"></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#sobre">Quem somos</a>
+      <a href="#valores">Valores</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn btn-gold" href="#contato"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>Fale conosco</span></a>
+  </div>
+</header>
+
+<main id="inicio">
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">Distribuidora alimentícia · Atacado e varejo</p>
+      <h1 id="hero-title">Conectando marcas <em>às gôndolas</em> do seu negócio.</h1>
+      <p class="lead">Produtos selecionados, procedência garantida e atendimento próximo para supermercados, mercearias, restaurantes e revendas.</p>
+      <div class="actions">
+        <a class="btn btn-gold" href="mailto:comercial@sublimenovadistribuidora.com.br?subject=Tabela%20comercial">Solicite nossa tabela comercial <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-ghost" href="#produtos">Conheça os produtos</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <img src="img/linha-sabor-de-minas.jpg" alt="Produtos Sabor de Minas: pururucas, torresmo pré-frito e banha suína em caixote de madeira" width="1000" height="741">
+    </div>
+  </div>
+</section>
+
+<section class="about" id="sobre" aria-labelledby="sobre-title">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">Quem somos</p>
+      <div class="section-head" style="margin:1rem 0 0">
+        <h2 id="sobre-title">Bons produtos, do fornecedor até a prateleira.</h2>
+      </div>
+      <p class="text">A Sublime é uma distribuidora alimentícia que atende atacado e varejo. Selecionamos produtos de qualidade e cuidamos de toda a ponte entre quem produz e quem vende, para que o produto certo chegue à gôndola certa.</p>
+    </div>
+    <div class="facts reveal">
+      <div><svg aria-hidden="true"><use href="#i-truck"/></svg>Distribuidora alimentícia</div>
+      <div><svg aria-hidden="true"><use href="#i-cart"/></svg>Atacado e varejo</div>
+      <div><svg aria-hidden="true"><use href="#i-shield"/></svg>Produtos com inspeção S.I.F.</div>
+    </div>
+  </div>
+</section>
+
+<div class="purpose">
+  <article class="reveal" aria-labelledby="missao-title">
+    <p class="eyebrow">Nossa missão</p>
+    <h2 id="missao-title">Levar as melhores marcas e os melhores produtos até as gôndolas dos supermercados, aos nossos clientes e ao consumidor.</h2>
+  </article>
+  <article class="reveal" aria-labelledby="visao-title">
+    <p class="eyebrow">Nossa visão</p>
+    <h2 id="visao-title">Ser uma grande distribuidora de alimentos e bebidas, presente nas redes de lojas e supermercados de todo o país, levando qualidade, felicidade e sabor à mesa das famílias.</h2>
+  </article>
+</div>
+
+<section class="dark" id="valores" aria-labelledby="valores-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Nossos valores</p>
+      <h2 id="valores-title">O que guia cada entrega</h2>
+    </div>
+    <div class="values">
+      <article class="value reveal"><svg aria-hidden="true"><use href="#i-scale"/></svg><h3>Ética</h3><p>Transparência em cada negociação, do pedido à entrega.</p></article>
+      <article class="value reveal"><svg aria-hidden="true"><use href="#i-badge"/></svg><h3>Qualidade</h3><p>Produtos selecionados e inspecionados com critério.</p></article>
+      <article class="value reveal"><svg aria-hidden="true"><use href="#i-users"/></svg><h3>Respeito</h3><p>Com clientes, parceiros, fornecedores e o consumidor final.</p></article>
+      <article class="value reveal"><svg aria-hidden="true"><use href="#i-smile"/></svg><h3>Felicidade</h3><p>Levar sabor à mesa e crescer junto com quem vende.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="produtos" aria-labelledby="produtos-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Portfólio</p>
+      <h2 id="produtos-title">Produtos com muito sabor</h2>
+    </div>
+
+    <div class="line">
+      <div class="line-head reveal">
+        <h3>Queijo parmesão · Rettis</h3>
+        <p>Sabor intenso, textura firme e granulada.</p>
+      </div>
+      <div class="grid">
+        <article class="card reveal"><img class="photo" src="img/parmesao-fiapos-40g.jpg" alt="Parmesão ralado em fiapos Rettis 40 g" loading="lazy" width="800" height="1200"><div><h4>Ralado em fiapos&nbsp;· 40&nbsp;g</h4><p>Toque final em massas e saladas.</p></div></article>
+        <article class="card reveal"><img class="photo" src="img/parmesao-ralado-40g.jpg" alt="Parmesão ralado fino Rettis 40 g" loading="lazy" width="800" height="1200"><div><h4>Ralado fino&nbsp;· 40&nbsp;g</h4><p>Prático para o dia a dia.</p></div></article>
+        <article class="card reveal"><img class="photo" src="img/parmesao-1kg.jpg" alt="Parmesão ralado Rettis 1 kg" loading="lazy" width="800" height="1192"><div><h4>Ralado fino&nbsp;· 1&nbsp;kg</h4><p>Para restaurantes e food service.</p></div></article>
+        <article class="card reveal"><img class="photo" src="img/parmesao-peca.jpg" alt="Queijo parmesão Rettis em peça de 5 kg" loading="lazy" width="620" height="840"><div><h4>Peça&nbsp;· 5&nbsp;kg</h4><p>Ideal para gratinar e finalizar receitas.</p><span class="tag">Fardo com 4 peças</span></div></article>
+      </div>
+    </div>
+
+    <div class="line">
+      <div class="line-head reveal">
+        <h3>Torresmo e derivados · Sabor de Minas</h3>
+        <p>Tradição mineira desde 2003.</p>
+      </div>
+      <div class="grid grid-5">
+        <article class="card reveal"><img src="img/torresmo-100g.jpg" alt="Torresmo Sabor de Minas 100 g" loading="lazy" width="622" height="828"><div><h4>Torresmo&nbsp;· 100&nbsp;g</h4><p>Pronto para consumo.</p><span class="tag">Caixa com 35 un.</span></div></article>
+        <article class="card reveal"><img src="img/torresmo-pimenta-50g.jpg" alt="Torresmo sabor pimenta Sabor de Minas 50 g" loading="lazy" width="623" height="828"><div><h4>Sabor pimenta&nbsp;· 50&nbsp;g</h4><p>Crocante e picante.</p></div></article>
+        <article class="card reveal"><img src="img/pururuca-limao-50g.jpg" alt="Pururuca sabor limão Sabor de Minas 50 g" loading="lazy" width="565" height="757"><div><h4>Pururuca limão&nbsp;· 50&nbsp;g</h4><p>Crocante e saborosa.</p><span class="tag">Caixa com 60 un.</span></div></article>
+        <article class="card reveal"><img src="img/torresmo-250g.jpg" alt="Torresmo pré-frito na banha Sabor de Minas 250 g" loading="lazy" width="700" height="691"><div><h4>Torresmo pré-frito&nbsp;· 250&nbsp;g</h4><p>É só aquecer e servir.</p><span class="tag">Caixa com 16 un.</span></div></article>
+        <article class="card reveal"><img src="img/banha-450g.jpg" alt="Banha suína Sabor de Minas 450 g" loading="lazy" width="700" height="750"><div><h4>Banha suína&nbsp;· 450&nbsp;g</h4><p>Para receitas tradicionais.</p><span class="tag">Caixa com 12 un.</span></div></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" aria-labelledby="diferenciais-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Por que a Sublime</p>
+      <h2 id="diferenciais-title">Produtos que fazem a diferença nas suas vendas</h2>
+    </div>
+    <div class="perks reveal">
+      <div><svg aria-hidden="true"><use href="#i-badge"/></svg><p>Qualidade que dá confiança</p></div>
+      <div><svg aria-hidden="true"><use href="#i-star"/></svg><p>Sabor que transforma receitas</p></div>
+      <div><svg aria-hidden="true"><use href="#i-trend"/></svg><p>Rendimento que valoriza seu negócio</p></div>
+      <div><svg aria-hidden="true"><use href="#i-package"/></svg><p>Embalagens práticas e seguras</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contato" aria-labelledby="contato-title">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="eyebrow">Contato</p>
+      <h2 id="contato-title">Solicite nossa tabela comercial</h2>
+      <p class="text">Fale com a nossa equipe e descubra como levar esses produtos para a gôndola do seu negócio.</p>
+    </div>
+    <div class="channels reveal">
+      <a href="mailto:comercial@sublimenovadistribuidora.com.br?subject=Tabela%20comercial"><svg aria-hidden="true"><use href="#i-mail"/></svg><div><small>E-mail</small><span>comercial@sublimenovadistribuidora.com.br</span></div></a>
+      <a href="https://www.instagram.com/sublimenovadistribuidora/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-instagram"/></svg><div><small>Instagram</small><span>@sublimenovadistribuidora</span></div></a>
+      <!-- WhatsApp: descomentar e trocar 55DDDNUMERO quando houver número.
+      <a href="https://wa.me/55DDDNUMERO" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-users"/></svg><div><small>WhatsApp</small><span>(DDD) 00000-0000</span></div></a>
+      -->
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="img/logo-claro.png" alt="Sublime Distribuidora" width="71" height="56">
+    <p>© 2026 Sublime Distribuidora · Conectando marcas às gôndolas</p>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+</script>
+</body>
+</html>
